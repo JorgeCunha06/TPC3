@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
@@ -113,10 +113,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   footerLabel: {
-    color: '#FFF',
+    color: '#fff',
     fontSize: 12,
     marginTop: 4,
   },
 });
-
-export default styles;

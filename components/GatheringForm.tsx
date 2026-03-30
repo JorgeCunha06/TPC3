@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { MaterialIcons } from '@expo/vector-icons';
-import styles from './GatheringForm.styles';
+import { styles } from './GatheringForm.styles';
 
 interface GatheringFormProps {
   issueId: number;
